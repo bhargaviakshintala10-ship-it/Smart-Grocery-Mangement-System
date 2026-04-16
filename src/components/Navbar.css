@@ -1,0 +1,110 @@
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  height: 70px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 30px;
+
+  /* GLASS EFFECT */
+  background: rgba(44, 62, 80, 0.8);
+  backdrop-filter: blur(10px);
+
+  color: white;
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* LOGO */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* NAV LINKS */
+.nav-links {
+  margin-left: auto;
+  display: flex;
+  gap: 25px;
+}
+
+/* BUTTON STYLE */
+.nav-links button {
+  position: relative;
+
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+
+  padding: 8px 5px;
+  transition: 0.3s;
+}
+
+/* UNDERLINE EFFECT */
+.nav-links button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 0%;
+  height: 2px;
+  background: #00f2fe;
+
+  transition: 0.3s;
+}
+
+/* HOVER ANIMATION */
+.nav-links button:hover::after {
+  width: 100%;
+}
+
+/* ACTIVE LINK */
+.nav-links .active {
+  font-weight: bold;
+}
+
+.nav-links .active::after {
+  width: 100%;
+}
+
+/* RIGHT SIDE */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 30px;
+}
+
+/* USER BADGE */
+.user-badge {
+  background: rgba(255,255,255,0.2);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  padding: 6px 14px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.logout-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}

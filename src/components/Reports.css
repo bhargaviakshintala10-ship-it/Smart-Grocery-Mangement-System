@@ -1,0 +1,115 @@
+/* MAIN BACKGROUND */
+.reports-container {
+  padding: 30px;
+  min-height: 100vh;
+  background: #f4f6f9; /* soft light grey */
+  font-family: "Poppins", sans-serif;
+}
+
+/* TITLE */
+.reports-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* CARDS ROW */
+.reports-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* CARD BASE */
+.report-card {
+  flex: 1;
+  min-width: 230px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+
+  text-align: center;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+
+  border-top: 5px solid transparent;
+}
+
+/* ICON */
+.report-card span {
+  font-size: 28px;
+}
+
+/* TEXT */
+.report-card h3 {
+  margin: 10px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.report-card p {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* PROFESSIONAL COLORS (SUBTLE, NOT LOUD) */
+.report-card.blue {
+  border-top: 5px solid #3498db;
+}
+
+.report-card.green {
+  border-top: 5px solid #2ecc71;
+}
+
+.report-card.orange {
+  border-top: 5px solid #f39c12;
+}
+
+.report-card.red {
+  border-top: 5px solid #e74c3c;
+}
+
+/* HOVER */
+.report-card:hover {
+  transform: translateY(-5px);
+}
+
+/* LOW STOCK SECTION */
+.low-stock-box {
+  margin-top: 35px;
+  padding: 20px;
+  border-radius: 12px;
+
+  background: #ffffff;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.low-stock-box h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* LIST */
+.stock-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+  border-bottom: 1px solid #eee;
+}
+
+/* STOCK COUNT */
+.stock-count {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* EMPTY */
+.no-data {
+  color: gray;
+  margin-top: 10px;
+}
