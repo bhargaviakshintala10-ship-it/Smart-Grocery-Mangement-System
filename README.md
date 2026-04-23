@@ -18,7 +18,7 @@ Category | Technology
 Frontend | React.js
 Backend | Node.js, Express.js
 Database | MongoDB
-Deployment | (Optional – AWS / Localhost)
+Deployment | AWS
 
 📂 Project Structure
 Smart-Grocery-System/
@@ -27,32 +27,35 @@ Smart-Grocery-System/
 ├── Frontend/         # React application
 ├── package.json
 └── README.md
+
 # Installation & Setup
 🔹 Step 1: Clone Repository
 git clone https://github.com/bhargaviakshintala10-ship-it/Smart-Grocery-Management-System.git
 cd smart-grocery
+
 🔹 Step 2: Install Dependencies
+
 # Backend
 cd backend
 npm install
+
 # Frontend
 cd frontend
 npm install
-#  Step 3: Environment Variables
-Create .env file inside backend:
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
- # Step 4: Run Application
+
+# Step 3: Run Application
 # Backend
 npm start
 # Frontend
 npm run dev
+
 # API
 Base URL: http://localhost:5000
 Provides functionality for:
 Product management (CRUD operations)
 Report generation
 Admin authentication
+
 # Future Enhancements
  Customer module (online shopping)
  Payment integration
