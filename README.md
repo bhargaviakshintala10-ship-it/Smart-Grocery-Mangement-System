@@ -1,16 +1,77 @@
-# React + Vite
+# Smart Grocery Management System
+ Smart Solution for Grocery Inventory Management»
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Overview
+Smart Grocery Management System is a full-stack MERN web application that helps in managing grocery products efficiently.
+It is designed to allow admin to handle product details, monitor inventory, and generate reports in a simple and organized way.
 
-Currently, two official plugins are available:
+# Key Features
+ Admin Login System
+ Add, Update, Delete Products
+ Dashboard for product management
+ Reports generation and viewing
+ Search and filter products
+ Responsive and user-friendly UI
+ 
+ # Tech Stack
+Category | Technology
+Frontend | React.js
+Backend | Node.js, Express.js
+Database | MongoDB
+Deployment | (Optional – AWS / Localhost)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+📂 Project Structure
+Smart-Grocery-System/
+│
+├── backend/          # API & database logic
+├── Frontend/         # React application
+├── package.json
+└── README.md
+# Installation & Setup
+🔹 Step 1: Clone Repository
+git clone https://github.com/your-username/Smart-Grocery-Management-System.git
+cd smart-grocery
+🔹 Step 2: Install Dependencies
 
-## React Compiler
+# Backend
+cd backend
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Frontend
 
-## Expanding the ESLint configuration
+cd frontend
+npm install
+#  Step 3: Environment Variables
+Create .env file inside backend:
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ # Step 4: Run Application
+
+# Backend
+
+npm start
+
+# Frontend
+
+npm run dev
+
+# API
+Base URL: http://localhost:5000
+Provides functionality for:
+Product management (CRUD operations)
+Report generation
+Admin authentication
+
+# Future Enhancements
+ Customer module (online shopping)
+ Payment integration
+ Low stock notifications
+ Advanced analytics & reports
+ Cloud deployment
+
+ # Project Goal
+To simplify grocery inventory management by providing a centralized, efficient, and user-friendly system.
+
+# Author
+Akshintala Bhargavi
