@@ -56,6 +56,19 @@ Product management (CRUD operations)
 Report generation
 Admin authentication
 
+# Modules
+Admin Module
+Product Management
+Search Module
+Sort Module
+Dashboard Module
+Reports Module
+
+# Alogrithms
+ Sort
+ Search
+
+
 # Future Enhancements
  Customer module (online shopping)
  Payment integration
